@@ -49,8 +49,18 @@ public class Animal {
     
     public String toString(){
 
+        String conts="";
 
-        return "Type: " + type + "\nContinents: "+ Arrays.toString(continents) +"\nweight: " + weight +
+        if(continents!= null)
+        {
+            for(int i=0;i < continents.length;i++)
+            {
+                conts+= continents[i] + ", ";
+            }
+        }
+        else
+            conts = "no continents spec";
+        return "Type: " + type + "\nContinents: "+ conts +"\nweight: " + weight +
                 "\nAge: "+age;
     }
 

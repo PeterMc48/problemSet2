@@ -11,22 +11,22 @@ public class AnimalDriver {
         String type;
         double weight;
         int age;
-        String[] con;
+        String[] con = {"Africa","Asia"};
 
 
         for(Animal a: animals){
             a = new Animal();
-            a.setType(JOptionPane.showInputDialog("Type:"));
+            /*a.setType(JOptionPane.showInputDialog("Type:"));
             a.setContinents(getContinents());
             a.setWeight(Double.parseDouble(JOptionPane.showInputDialog("Weight:")));
-            a.setAge(Integer.parseInt(JOptionPane.showInputDialog("Age:")));
-       /*
+            a.setAge(Integer.parseInt(JOptionPane.showInputDialog("Age:")));*/
+
             type =  JOptionPane.showInputDialog("Type:");
             weight = Double.parseDouble(JOptionPane.showInputDialog("Weight:"));
             age = (Integer.parseInt(JOptionPane.showInputDialog("Age:")));
             con = getContinents();
-*/
-            //a = new Animal(type,con,weight,age);
+
+            a = new Animal(type,con,weight,age);
             JOptionPane.showMessageDialog(null, a.toString());
         }
 
@@ -46,10 +46,6 @@ public class AnimalDriver {
         for(int i=0;i < con.length;i++)
         {
             con[i] = JOptionPane.showInputDialog("enter Continent");
-            if(con[i] != null)
-            {
-                con[i] += con[i] + " ";
-            }
         }
         return con;
     }
