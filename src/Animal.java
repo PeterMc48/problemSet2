@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.util.Arrays;
+
 public class Animal {
     private String type;
     private String[] continents;
@@ -36,17 +39,19 @@ public class Animal {
         weight = 0.0;
         age = 0;
     }
-    public String toString(){
-
-        return "Type" + type + "\nContinents: "+ continents +"\n" + continents + "\nweight: " + weight +
-                "\nAge: "+age;
-    }
     public Animal(String type,String[] continents,double weight, int age){
 
         setType(type);
         setContinents(continents);
         setAge(age);
         setWeight(weight);
+    }
+    
+    public String toString(){
+
+
+        return "Type: " + type + "\nContinents: "+ Arrays.toString(continents) +"\nweight: " + weight +
+                "\nAge: "+age;
     }
 
 
