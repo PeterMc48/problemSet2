@@ -7,7 +7,7 @@ public class Bicycle {
     {
         return owner;
     }
-    public void setOwner()
+    public void setOwner(String owner)
     {
         this.owner=owner;
     }
@@ -15,14 +15,14 @@ public class Bicycle {
     {
         return value;
     }
-    public void setValue(){
+    public void setValue(double value){
         this.value = value;
     }
     public String getMake()
     {
        return make;
     }
-    public void setMake(){
+    public void setMake(String make){
         this.make = make;
     }
     public Bicycle(){
@@ -37,7 +37,7 @@ public class Bicycle {
         make="";
     }
     public String toString(){
-        return "Owner: " +owner+ "\nValue: "+value+"\nMake: "+make;
+        return "Owner: " +owner+ "\nValue: "+String.format("%.2f",value)+"euros"+"\nMake: "+make;
     }
 
 }
