@@ -30,29 +30,28 @@ public class MyPoint {
         setyVal(yVal);
     }
     //methods
-    public void moveHorizontally(float xVal){
+    public void moveHorizontally(float units){
 
-        setxVal(xVal);
+        xVal = xVal+units;
+
+      //  setxVal(xVal);
 
     }
-    public void moveVertically(float yVal){
+    public void moveVertically(float units){
+        yVal = yVal+units;
+    }
+    public void translate(float x,float y){
         setyVal(yVal);
-    }
-    public void translate(float xVal,float yVal){
-        setyVal(yVal);
         setxVal(xVal);
     }
-    public static float distanceFromOrgin(float xVal, float yVal){
 
-        float z = (float)Math.sqrt(((xVal*xVal)+(yVal*yVal)));
-        return z;
-    }
     public String toString(){
 
-        return "Starting point for X was 0"+ "\nStarting point for Y was 0"+
+        /*return "Starting point for X was 0"+ "\nStarting point for Y was 0"+
                 "\nX Moved Horizontally "+ xVal+
                 "\nY Moved Vertically " + yVal +
-                "\nDistance from orginal point " + String.format("%.2f",distanceFromOrgin(xVal,yVal));
+           */
+        return "The point is: ("+ this.xVal +","+this.yVal+")\n";
 
     }
 }

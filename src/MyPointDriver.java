@@ -3,15 +3,18 @@ import javax.swing.*;
 public class MyPointDriver {
     public static void main(String[] args) {
         MyPoint point = new MyPoint();
-        float x = point.getxVal();
-        float y = point.getyVal();
-        point.moveHorizontally(x += 2.5f);
-        point.moveVertically(y+=3.5f);
+        MyPoint point2 = new MyPoint(0,0);
+        System.out.print(("Starting Point: "+point2.toString()));
+        point2.moveHorizontally(2);
+        System.out.print("Move point horizontally:" +point2.toString());
+        point2.moveVertically(3);
+        System.out.print("Move point Vertically: "+point2.toString());
 
-        point.translate(x,y);
-        point.distanceFromOrgin(x,y);
+    }
+    public static float distanceFromOrgin(float xVal, float yVal){
 
-        JOptionPane.showMessageDialog(null, point.toString());
+        float z = (float)Math.sqrt(((xVal*xVal)+(yVal*yVal)));
+        return z;
     }
 
 }

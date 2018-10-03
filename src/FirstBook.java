@@ -3,15 +3,15 @@ import java.awt.*;
 
 public class FirstBook {
     public static void main(String[] args) {
-        Book Fav = new Book();
+        Book fav = new Book();
         JTextArea textArea = new JTextArea(30, 10);
         Font font = new Font("Monospaced",Font.PLAIN,12);
         textArea.setFont(font);
 
-        Fav.setTitle(getfavBook());
-        Fav.setPrice(getPrice());
-        Fav.setISBN(getISBN());
-        Fav.setNumOfPages(getPage());
+        fav.setTitle(getfavBook());
+        fav.setPrice(getPrice());
+        fav.setISBN(getISBN());
+        fav.setNumOfPages(getPage());
 
         Book leastFav = new Book();
 
@@ -21,7 +21,7 @@ public class FirstBook {
         leastFav.setNumOfPages(getPage());
 
         String text = "Your favourite book is:\n------------\n"+
-                Fav+ "\n\nYour least favourite book is:\n------------\n"+ leastFav;
+                fav+ "\n\nYour least favourite book is:\n------------\n"+ leastFav;
 
         textArea.append(text);
 

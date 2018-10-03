@@ -58,7 +58,8 @@ public class Book {
 //to output the attributes in the main method
     public String toString()
     {
-        return "Title: " + title + "\nISBN: " + ISBN + "\nPrice: " + price + "\nNumber of Pages: "+numOfPages;
+        return "Title: " + title + "\nISBN: " + ISBN + "\nPrice: "
+                + price + "\nNumber of Pages: "+numOfPages;
     }
 
 }
