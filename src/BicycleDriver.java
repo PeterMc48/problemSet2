@@ -14,6 +14,7 @@ public class BicycleDriver {
         bike1.setOwner(getName());
         double value1 = getValue();
         bike1.setValue(getIncreaseValue(value1));
+        double increasedValue = getIncreaseValue(value1);
         bike1.setMake(getMake());
 
 
@@ -25,7 +26,7 @@ public class BicycleDriver {
 
 
 
-        double total = getTotal(value1,value2);
+        double total = getTotal(increasedValue,value2);
 
 
 

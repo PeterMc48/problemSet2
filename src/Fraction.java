@@ -28,7 +28,7 @@ public class Fraction {
     }
     public int getAdd(int numerator,int denominator)
     {
-        return numerator + denominator;
+        return (numerator/denominator) + (numerator/denominator);
     }
     public int getSubtract(int numerator,int denominator){
         return numerator - denominator;
@@ -39,10 +39,25 @@ public class Fraction {
     public int getDivide(int numerator, int denominator){
         return numerator / denominator;
     }
-
-    public String toString() {
-
-
-
+    public char getSwitch(int numerator,int denominator) {
+        char choose=0;
+        switch (choose) {
+            case 1:
+                getAdd(numerator, denominator);
+                break;
+            case 2:
+                getSubtract(numerator,denominator);
+                break;
+            case 3:
+                getMultiply(numerator,denominator);
+                break;
+            case 4:
+                getDivide(numerator,denominator);
+                default:
+                    System.out.println("No algorithm");
+                    break;
+        }
+        return choose;
     }
+
 }

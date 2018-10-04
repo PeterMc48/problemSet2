@@ -26,15 +26,13 @@ public class Bicycle {
         this.make = make;
     }
     public Bicycle(){
-        owner = "";
-        value = 0;
-        make="";
+        this("",0,"");
     }
     public Bicycle(String owner,double value,String make)
     {
-        owner = "";
-        value = 0;
-        make="";
+        setMake(make);
+        setValue(value);
+        setOwner(owner);
     }
     public String toString(){
         return "Owner: " +owner+ "\nValue: "+String.format("%.2f",value)+"euros"+"\nMake: "+make;
