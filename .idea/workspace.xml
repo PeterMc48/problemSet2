@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed12398c-1b34-4df9-b058-1a981a2befeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fravtionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BicycleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BicycleDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fraction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,32 +76,33 @@
     <session id="-1288338778">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1693" />
-          <entry key="txt" value="36" />
+          <entry key="java" value="2641" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1693" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="JAVA" value="2641" />
+          <entry key="PLAIN_TEXT" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -133,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bicycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="187">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
@@ -148,8 +148,6 @@
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#474#475#0" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,24 +156,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BicycleDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="459">
               <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="443">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding>
                 <element signature="e#113#114#0" expanded="true" />
                 <element signature="e#147#148#0" expanded="true" />
@@ -185,15 +179,16 @@
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#356#357#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fravtionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -220,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/MyPointDriver.java" />
         <option value="$PROJECT_DIR$/src/Bicycle.java" />
         <option value="$PROJECT_DIR$/src/BicycleDriver.java" />
+        <option value="$PROJECT_DIR$/src/fravtionTest.java" />
         <option value="$PROJECT_DIR$/src/Fraction.java" />
       </list>
     </option>
@@ -229,6 +225,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
@@ -247,6 +249,11 @@
               <item name="problemSet2" type="b2602c69:ProjectViewProjectNode" />
               <item name="problemSet2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="problemSet2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="problemSet2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538653381198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538940233788" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -274,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BicycleDriver">
+  <component name="RunManager" selected="Application.fravtionTest">
     <configuration name="BicycleDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BicycleDriver" />
       <module name="problemSet2" />
@@ -296,13 +303,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fravtionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fravtionTest" />
+      <module name="problemSet2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FirstBook" />
       <item itemvalue="Application.MyPointDriver" />
       <item itemvalue="Application.BicycleDriver" />
+      <item itemvalue="Application.fravtionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fravtionTest" />
         <item itemvalue="Application.BicycleDriver" />
         <item itemvalue="Application.MyPointDriver" />
         <item itemvalue="Application.FirstBook" />
@@ -328,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538599625630</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redo fractions">
+      <created>1538655570754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538655570754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -338,7 +361,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27352297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28008753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,10 +390,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="PlantUML" order="8" />
-      <window_info anchor="right" id="SciView" order="9" />
-      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="PlantUML" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32932165" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fraction class needs to be finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fraction class needs to be finished" />
+    <MESSAGE value="redo fractions" />
+    <option name="LAST_COMMIT_MESSAGE" value="redo fractions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/java/src/ProblemSet0Exercise1.java" />
@@ -435,7 +459,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bicycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="187">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
@@ -450,30 +474,24 @@
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#474#475#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BicycleDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="459">
           <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="443">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="e#113#114#0" expanded="true" />
             <element signature="e#147#148#0" expanded="true" />
@@ -483,15 +501,14 @@
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fravtionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

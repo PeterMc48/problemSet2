@@ -18,15 +18,17 @@ public class Fraction {
         this.numerator = numerator;
     }
     public Fraction(){
-        numerator = 0;
-        denominator=0;
+        numerator = 15;
+        denominator=25;
     }
     public Fraction(int numerator,int denominator)
     {
         setDenominator(denominator);
         setNumerator(numerator);
     }
-    public int getAdd(int numerator,int denominator)
+
+
+  /*  public int getAdd(int numerator,int denominator)
     {
         return (numerator/denominator) + (numerator/denominator);
     }
@@ -58,6 +60,6 @@ public class Fraction {
                     break;
         }
         return choose;
-    }
+    }*/
 
 }
